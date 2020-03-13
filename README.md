@@ -11,7 +11,7 @@
 
 ![Screenshot](screenshot5.png)
 
-*Строки поддержки русского языка в программе*
+*Строки поддержки русского языка в программе:*
 ```
 wxLocale m_locale;
 m_locale.Init(wxLANGUAGE_RUSSIAN);
