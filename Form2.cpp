@@ -38,7 +38,6 @@ Form2::Form2(wxWindow* parent,wxWindowID id,const wxPoint& pos,const wxSize& siz
 
     Connect(ID_BUTTON1,wxEVT_COMMAND_BUTTON_CLICKED,(wxObjectEventFunction)&Form2::OnButton1Click);
     Connect(ID_BUTTON2,wxEVT_COMMAND_BUTTON_CLICKED,(wxObjectEventFunction)&Form2::OnButton2Click);
-    Connect(wxID_ANY,wxEVT_CLOSE_WINDOW,(wxObjectEventFunction)&Form2::OnClose);
     Connect(wxEVT_ENTER_WINDOW,(wxObjectEventFunction)&Form2::OnMouseEnter);
     //*)
 
@@ -53,6 +52,7 @@ Form2::~Form2()
 // КНОПКА "НАЗАД"
 void Form2::OnButton1Click(wxCommandEvent& event) {
     this -> Close(); // Закрываем это окно
+    form1 -> Show(); // Открываем первое окно
 }
 
 // ВЫХОД ИЗ ПРОГРАММЫ ПО КНОПКЕ ЗАКРЫТИЯ
