@@ -32,19 +32,9 @@ class Form2: public wxFrame
 
 		//(*Handlers(Form2)
 		void OnClose(wxCloseEvent& event);
-		void OnSetFocus(wxFocusEvent& event);
 		void OnButton2Click(wxCommandEvent& event);
 		void OnButton1Click(wxCommandEvent& event);
 		void OnMouseEnter(wxMouseEvent& event);
-		void OnSetFocus2(wxFocusEvent& event);
-		void OnMouseEnter1(wxMouseEvent& event);
-		void OnPaint(wxPaintEvent& event);
-		void OnClose1(wxCloseEvent& event);
-		void OnPaint1(wxPaintEvent& event);
-		void OnSetFocus12(wxFocusEvent& event);
-		void OnSetFocus13(wxFocusEvent& event);
-		void OnSetFocus17(wxFocusEvent& event);
-		void OnMouseEnter26(wxMouseEvent& event);
 		//*)
 
 		DECLARE_EVENT_TABLE()
