@@ -7,8 +7,7 @@
 		<pos_arg>1</pos_arg>
 		<size_arg>1</size_arg>
 		<style>wxDEFAULT_DIALOG_STYLE</style>
-		<handler function="OnClose1" entry="EVT_CLOSE" />
-		<handler function="OnMouseEnter26" entry="EVT_ENTER_WINDOW" />
+		<handler function="OnMouseEnter" entry="EVT_ENTER_WINDOW" />
 		<object class="wxButton" name="ID_BUTTON1" variable="Button1" member="yes">
 			<label>&lt;&lt;&lt; Назад</label>
 			<pos>32,104</pos>
